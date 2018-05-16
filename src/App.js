@@ -345,7 +345,7 @@ class App extends Component {
 					</Modal.Header>
 					<Modal.Body>
 						<p>I'd love to hear feedback on tweaks, criticism, etc. The source code can be found on my github page.</p>
-						<p><a href="https://github.com/NullGemini/timer_puzzle" target="_blank" rel="noopener noreferrer">https://github.com/NullGemini/timer_puzzle</a></p>
+						<p><a href="https://github.com/NullGemini/falling_floor" target="_blank" rel="noopener noreferrer">https://github.com/NullGemini/falling_floor</a></p>
 					</Modal.Body>
 					<Modal.Footer>
 						<Button onClick={this.closeSource}>Close</Button>
