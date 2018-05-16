@@ -1,0 +1,184 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-size: 1.5em;
+	font-family: sans-serif;
+	background-image: url('./images/background.jpg');
+	background-repeat: repeat;
+}
+
+#App {
+  padding-top: 20px;
+  text-align: center;
+	min-width: 600px;
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+#app-header {
+	background-color: #222222;
+	padding: 0px 10px 10px 10px;
+  color: #FFFFFF;
+  width: 100%;
+}
+
+.header_links {
+  width: 100%;
+}
+
+#title {
+	font-family: 'Skranji', cursive;
+	font-size: 48px;
+	margin-bottom: 0px;
+}
+
+#footer {
+  color: #FFFFFF;
+  background-color: #222222;
+	font-size: 1.1em;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: right;
+}
+
+.react-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 60px;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+/* Customize Bootstrap Defaults */
+
+.btn-outline-secondary {
+	border: 1px solid #FFFFFF;
+	background-color: #222222;
+	width: 33%;
+}
+
+.btn-outline-secondary:hover {
+	background-color: #666666;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+.modal-container {
+  position: relative;
+}
+.modal-container .modal, .modal-container .modal-backdrop {
+  position: absolute;
+}
+
+.modal-content {
+	background-color: #BBBBBB;
+}
+
+.modal-header {
+	background-color: #222222;
+	color: #FFFFFF;
+	font-weight: bold;
+	border-top-right-radius: 6px;
+	border-top-left-radius: 6px;
+}
+
+.btn-primary {
+	background-image: -webkit-linear-gradient(top,#DD0000 0,#880000 100%);
+	background-image: -o-linear-gradient(top,#DD0000 0,#880000 100%);
+	background-image: -webkit-gradient(linear,left top,left bottom,from(#DD0000),to(#880000));
+	background-image: linear-gradient(to bottom,#DD0000 0,#880000 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffDD0000', endColorstr='#ff880000', GradientType=0);
+	filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+	background-repeat: repeat-x;
+	border-color: #880000;
+	color: #FFFFFF;
+	min-width: 120px;
+	min-height: 34px;
+	border-radius: 5px;
+}
+
+.btn-primary:focus, .btn-primary:active:hover {
+  background-color:#880000;
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  background-color:#880000;
+  cursor: pointer;
+}
+
+.btn-secondary {
+	background-image: -webkit-linear-gradient(top,#DDDDDD 0,#333333 100%);
+	background-image: -o-linear-gradient(top,#DDDDDD 0,#333333 100%);
+	background-image: -webkit-gradient(linear,left top,left bottom,from(#DDDDDD),to(#333333));
+	background-image: linear-gradient(to bottom,#DDDDDD 0,#333333 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffDDDDDD', endColorstr='#ff333333', GradientType=0);
+	filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+	background-repeat: repeat-x;
+	border-color: #333333;
+	color: #FFFFFF;
+	min-width: 120px;
+	min-height: 34px;
+	border-radius: 5px;
+}
+
+.btn-secondary:focus, .btn-secondary:active:hover {
+  background-color:#333333;
+  cursor: pointer;
+}
+
+.btn-secondary:hover {
+  background-color:#333333;
+  cursor: pointer;
+}
+
+.input-group-addon:first-child {
+	min-width: 74px;
+	font-weight: bold;
+	text-align: left;
+}
+
+
+.container {
+  width: 100%;
+  text-align: center;
+  background-color: #222222;
+}
+
+.count_down_timer {
+  font-size: 2em;
+  padding: 10px;
+  color: #FFFFFF;
+}
+
+
+/* Table Styles */
+
+.room_table {
+  width: 600px;
+  height: 600px;
+  background-color: #000000;
+  margin: 0 auto;
+}
+
+.room_table td {
+  width: 100px;
+  height: 100px;
+  text-align: left;
+  vertical-align: top;
+  padding: 5px;
+}
+
+.tile {
+  background-color: #F5F5DC;
+  border: 1px solid #000000;
+}
+
+.drop {
+  background-color: #FF0000;
+  color: #FFFFFF;
+}
